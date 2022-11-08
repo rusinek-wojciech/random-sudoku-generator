@@ -5,9 +5,9 @@ import javax.swing.*;
 /**
  * Class adds panel.
  */
-public class CalcFrame extends JFrame {
-    public CalcFrame() {
-        CalcPanel panel = new CalcPanel();
+public class SudokuFrame extends JFrame {
+    public SudokuFrame() {
+        SudokuPanel panel = new SudokuPanel();
         add(panel);
         pack();
     }

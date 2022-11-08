@@ -7,12 +7,12 @@ import java.awt.*;
  * Sudoku program.
  * @author iKinsure
  *
- * A {@code Main} class. Generates main frame.
+ * A {@code Sudoku} class. Generates main frame.
  */
-public class Main {
+public class Sudoku {
     public static void main(String[] args) {
         EventQueue.invokeLater(() -> {
-            CalcFrame frame = new CalcFrame();
+            SudokuFrame frame = new SudokuFrame();
             frame.setTitle("Sudoku");
             frame.setSize(580, 600);
             frame.setLocationByPlatform(true);
